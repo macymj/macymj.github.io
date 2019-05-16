@@ -7,17 +7,17 @@ div.relative {
 }
 div.absolute {
     position: absolute;
-    top: 50%;
-    right: -40 px;
-    width: 20%;
-    height: 600 px;
+    top: 220px;
+    left: 40px;
+    width: 300px;
+    height: 200px;
     border-style: dashed;
     border-color: blue;
 }
 div.fixed {
     position: fixed;
-    top:400 px;
-    left:400 px;
+    top:50px;
+    left:420px;
     border-style: double;
     border-color: plum;
     background-color: black;
