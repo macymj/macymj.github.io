@@ -4,14 +4,10 @@ body{
 
 h1{
     font-family: 'Vollkorn', serif;
-    color: #AD7EEE
+    color: #7922D6
 }
-div{
-    border: 3px solid maroon;
-    width: 2 px;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 10 px;
+
+   
 
 }
 a {
