@@ -10,15 +10,15 @@ div{
     border-style: solid;
     border-width: 3px;
     border-color: maroon;
-    height: 100 px;
-    width: 60 px;
-    margin-top: 30 px;
-    margin-bottom: 30px;
-
+    height: 150px;
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 
 }
 table , td {
     border: 1px solid maroon;
+    width: 10px
   }
 
 td {
