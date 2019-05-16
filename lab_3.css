@@ -1,0 +1,27 @@
+div.relative {
+    position: relative;
+    left: 30px;
+    border-style: solid;
+    border-color: purple;
+    margin: 6%;
+}
+div.absolute {
+    position: absolute;
+    top: 50%;
+    right: -40 px;
+    width: 20%;
+    height: 600 px;
+    border-style: dashed;
+    border-color: blue;
+}
+div.fixed {
+    position: fixed;
+    top:400 px;
+    left:400 px;
+    border-style: double;
+    border-color: plum;
+    background-color: black;
+    color: white
+
+
+}
