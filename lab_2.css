@@ -1,0 +1,19 @@
+body{
+    background-color: plum;
+    font-family: 'Vollkorn', serif;
+    margin-bottom: 20 px;
+}
+h1{
+    font-family: 'Istok Web', sans-serif;
+}
+div{
+    border-style: solid;
+    border-width: 3px;
+    border-color: maroon;
+    height: 100 px;
+    width: 60 px;
+    margin-top: 30 px;
+    margin-bottom: 30px;
+
+
+}
