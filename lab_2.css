@@ -17,3 +17,10 @@ div{
 
 
 }
+table, th, td {
+    border: 1px solid maroon;
+  }
+
+td {
+background-color: white
+}
