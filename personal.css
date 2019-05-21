@@ -1,0 +1,127 @@
+
+body {
+    width: 100%;
+    margin: 0;
+    border: 0;
+}
+ul {
+    text-align: center;
+}
+li {
+    display: inline;
+    padding: 5px;
+    font-family: 'Francois One', sans-serif;
+}
+div.nav {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    text-align: center;
+    font-size: 150%;
+    top: 0;
+    background-color: black;
+    font-family: 'Francois One', sans-serif;
+    z-index: +1;
+}
+
+h2 {
+    font-family: 'Francois One', sans-serif;
+}
+div.image {
+    display: block;
+    margin-top: 7%;
+}
+div.profile {
+    position: relative;
+    top: 20px;
+    left: 200px;
+}
+div.about {
+    position: absolute;
+    top: 100px;
+    left: 630px;
+    width: 42%;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px grey;
+    border: 5px solid black;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 150%;
+    background-color: #6aacc2;
+    overflow: scroll;
+
+}
+
+a:link, a:visited {
+    background-color: #ba3681;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+  }
+  
+  a:hover, a:active {
+    background-color: #ba3681;
+  }
+
+  div.schoolpics {
+    position: absolute;
+    top: 100px;
+    left: 650px;
+    width: 42%;
+    bottom: 35px;
+    margin: 10px;
+    padding: 0px;
+    box-shadow: 10px 10px 5px grey;
+    border: 5px solid black;
+    background-color: #7d36ba;
+    overflow: scroll;
+    text-align: center;
+ }
+ 
+ div.school {
+    position: absolute;
+    top: 100px;
+    left: 38px;
+    width: 42%;
+    bottom: 35px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px grey;
+    border: 5px solid black;
+    background-color: #6aacc2;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 150%;
+    overflow: scroll;
+ }
+
+ div.abroadpics {
+    position: absolute;
+    top: 100px;
+    left: 38px;
+    width: 42%;
+    bottom: 35px;
+    margin: 10px;
+    padding: 0px;
+    box-shadow: 10px 10px 5px grey;
+    border: 5px solid black;
+    background-color: #7d36ba;
+    overflow: scroll;
+    text-align: center;
+ }
+ div.abroad {
+    position: absolute;
+    top: 100px;
+    left: 650px;
+    width: 42%;
+    bottom: 35px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px grey;
+    border: 5px solid black;
+    background-color: #6aacc2;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 150%;
+    overflow: scroll;
