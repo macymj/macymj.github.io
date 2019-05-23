@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+}
+
+.header {
+    background-image: url("graphics/universe.jpg");
+    width: auto;
+    height: 90px;
+    top: 0px;
+    text-align: center;
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 150%;
+}
+
+.box {
+    top: 15%;
+    padding: 15px;
+    margin: 15px;
+    border: 5px solid black;
+    font-family: 'Overlock', cursive;
+}
+
+section {
+    margin: 2%;
+    font-family: 'Staatliches', cursive;
+}
+
+
+
+
