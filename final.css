@@ -1,0 +1,112 @@
+body {
+    width: 100%;
+    margin: 0;
+    border: 0; 
+}
+/* this is here to set up the navigation across the top in a row */
+.navbar {
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+    font-size: 150%;
+  }
+
+.navbar li a, .navbar .navbar-brand {
+  color: white !important;
+}
+
+.navbar-nav li a:link {
+  color: white !important;
+}
+.navbar-nav li a:hover {
+    color: lightskyblue !important;
+  }
+
+img {
+    width: 100%;
+}
+
+#mainintro {
+  padding: 5%;
+  border-style: solid;
+  border-color: black;
+  border-radius: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#instagram {
+  text-align: center;
+  color: lightskyblue;
+  font-family: 'Bangers' , cursive;
+  font-size: 150%;
+}
+
+.fa {
+  padding: 10px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  }
+
+.fa-instagram {
+  background-color: black;
+  font-size: 250% !important;
+  margin: 5px 2px;
+  color: lightskyblue;
+}
+
+div.header {
+    width: 100%; /* this is to set the navigation across all screens as all the way across */
+    font-size: 150%;
+    top: 0; /* this is to make sure the navigation reaches the very top of the page */
+    background-color: black;
+    text-align: right;
+    padding: 15px; /* this is to give the text and logo a bit of space on all sides */
+}
+
+div.highlight {
+  background-color: black;
+  color: white;
+  font-size: 150%;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 2px;
+}
+
+.col-md-5 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.col-md-7 {
+   padding-top: 25px;
+}
+
+div.thumbnail {
+  width: 90%;
+}
+
+#bottompics {
+  border-style: solid;
+  border-color: black;
+  padding-top: 25px;
+  border-radius: 25px;
+  width: 89.75%;
+  margin-left: 5.25%;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
+.bg-4 { 
+    background-color: black;
+    color: #ffffff;
+    font-family: 'Bangers' , cursive;
+    font-size: 150%;
+  }
+
+  .container-fluid {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
