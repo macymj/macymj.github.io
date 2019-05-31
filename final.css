@@ -88,6 +88,11 @@ div.thumbnail {
   width: 90%;
 }
 
+div.col-sm-6 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
+
 #bottompics {
   border-style: solid;
   border-color: black;
@@ -98,6 +103,7 @@ div.thumbnail {
   margin-bottom: 5%;
   margin-top: 3%;
 }
+
 
 .bg-4 { 
     background-color: black;
