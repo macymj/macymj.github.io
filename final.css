@@ -3,7 +3,8 @@ body {
     margin: 0;
     border: 0; 
 }
-/* this is here to set up the navigation across the top in a row */
+/* this is here to set up the navigation across the top in a row using Bootstraps 
+navigation setup*/
 .navbar {
     background-color: black;
     padding-top: 15px;
@@ -13,7 +14,8 @@ body {
     letter-spacing: 2px;
     font-size: 150%;
   }
-
+/* this section allows for changes to the initial design set up by bootstrap by using their
+specific terms and designating emphasis on color changes */
 .navbar li a, .navbar .navbar-brand {
   color: white !important;
 }
@@ -25,12 +27,13 @@ body {
     color: lightskyblue !important;
   }
 
+/* images should generally stretch to fill the whole section they are in */
 img {
     width: 100%;
 }
 
 #mainintro {
-  padding: 5%;
+  padding: 5%; /* i added padding on all sides to separate the words from the border */
   border-style: solid;
   border-color: black;
   border-radius: 25px;
@@ -43,7 +46,7 @@ img {
   font-family: 'Bangers' , cursive;
   font-size: 150%;
 }
-
+ /* the fa tags distinguish the instagram icon used and create a button look */
 .fa {
   padding: 10px;
   width: 80px;
@@ -66,39 +69,45 @@ div.header {
     text-align: right;
     padding: 15px; /* this is to give the text and logo a bit of space on all sides */
 }
-
+/* this creates the black bars. i wanted them to stay aligned with the text without being a separate box */
 div.highlight {
   background-color: black;
   color: white;
   font-size: 150%;
   font-family: 'Bangers', cursive;
-  letter-spacing: 2px;
+  letter-spacing: 2px; /* the font used needed to be adapted to be more legible */
 }
 
+/* this is the box for the picture, which is slightly smaller than the text box */
 .col-md-5 {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    margin-top: 2%;
 }
 
+/* this is the box for the intro text */
 .col-md-7 {
    padding-top: 25px;
 }
 
+/* these are the settings for the thumbnail images as decided by bootstraps image gallery addition
+in order to align them all in the fitted box together*/
 div.thumbnail {
   width: 90%;
 }
 
+/* this is the information for the side page boxes which divide the screen */
 div.col-sm-6 {
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
 }
 
+/* this sets the border and alignment for the bottom row of images, designed to flow
+around the page but keep its settings within the box itself */
 #bottompics {
   border-style: solid;
   border-color: black;
-  padding-top: 25px;
+  padding-top: 25px; /*px here keeps the interior of the box spaced appropriately */
   border-radius: 25px;
-  width: 89.75%;
+  width: 89.75%; /* using percentages allows the box the be fluid but to align with other elements as much as possible */
   margin-left: 5.25%;
   margin-bottom: 5%;
   margin-top: 3%;
@@ -112,6 +121,7 @@ div.col-sm-6 {
     font-size: 150%;
   }
 
+/* this is for the footer and gives it spacing for the text so it looks larger */
   .container-fluid {
     padding-top: 40px;
     padding-bottom: 40px;
